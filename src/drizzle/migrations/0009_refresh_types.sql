@@ -1,0 +1,1 @@
+comment on table public.participants is 'Study participants';

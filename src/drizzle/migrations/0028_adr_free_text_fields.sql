@@ -1,0 +1,1 @@
+ALTER TABLE public.adr_reports ADD COLUMN IF NOT EXISTS suspected_medicine_notes text, ADD COLUMN IF NOT EXISTS allergic_reaction text, ADD COLUMN IF NOT EXISTS symptomatic_relief text;

@@ -1,0 +1,1 @@
+ALTER TABLE public.demographics ADD COLUMN IF NOT EXISTS state text, ADD COLUMN IF NOT EXISTS preferred_language text;

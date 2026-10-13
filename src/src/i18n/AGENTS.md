@@ -1,0 +1,4 @@
+## Patient language rules
+- Patient-area languages live in `src/i18n/`; the provider is mounted only by the `/patient` layout route and stores the choice in browser localStorage, so the research interface never shows the selector and no preference reaches the database.
+- Long-form content and inline UI text are translated through English-keyed catalogues (`catalog/<lang>.json`, loaded on demand): components call `useLocalized(contentObject)` or `tx("English")`/`msg()`, and `localize.ts` SKIP_KEYS keeps ids, slugs, links and medicine names untouched — so content files stay the single English source and no record is duplicated.
+- After changing patient English text, run `bun scripts/extract-patient-strings.ts`, add translations to `catalog/parts/`, then `bun scripts/build-patient-catalogs.ts` and `bun scripts/report-translation-coverage.ts`; the content test fails while any string is untranslated, and missing strings render in English under a page notice.

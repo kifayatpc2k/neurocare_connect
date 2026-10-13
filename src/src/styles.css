@@ -1,0 +1,259 @@
+@import "tailwindcss" source(none);
+@source "../src";
+@import "tw-animate-css";
+
+@custom-variant dark (&:is(.dark *));
+
+/*
+ * NeuroCare Connect design system — "Frosted Clinical Calm".
+ * All colours are oklch tokens. Never hardcode colour utilities in components.
+ */
+
+@theme inline {
+  --radius-sm: calc(var(--radius) - 4px);
+  --radius-md: calc(var(--radius) - 2px);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) + 4px);
+  --radius-2xl: calc(var(--radius) + 8px);
+  --radius-3xl: calc(var(--radius) + 12px);
+  --radius-4xl: calc(var(--radius) + 16px);
+
+  --font-sans: var(--font-body-family);
+  --font-display: var(--font-display-family);
+
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive);
+  --color-destructive-foreground: var(--destructive-foreground);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+  --color-ring-offset-background: var(--background);
+
+  --color-brand: var(--brand);
+  --color-brand-foreground: var(--brand-foreground);
+  --color-brand-deep: var(--brand-deep);
+  --color-mist: var(--mist);
+  --color-ink: var(--ink);
+  --color-ink-raised: var(--ink-raised);
+  --color-ink-foreground: var(--ink-foreground);
+  --color-ink-muted: var(--ink-muted);
+  --color-ink-line: var(--ink-line);
+  --color-warm: var(--warm);
+  --color-ink: var(--ink);
+  --color-surface: var(--surface);
+  --color-surface-strong: var(--surface-strong);
+  --color-hairline: var(--hairline);
+
+  --color-status-pending: var(--status-pending);
+  --color-status-progress: var(--status-progress);
+  --color-status-complete: var(--status-complete);
+  --color-arm-control: var(--arm-control);
+  --color-arm-intervention: var(--arm-intervention);
+
+  --color-chart-1: var(--chart-1);
+  --color-chart-2: var(--chart-2);
+  --color-chart-3: var(--chart-3);
+  --color-chart-4: var(--chart-4);
+  --color-chart-5: var(--chart-5);
+  --color-sidebar: var(--sidebar);
+  --color-sidebar-foreground: var(--sidebar-foreground);
+  --color-sidebar-primary: var(--sidebar-primary);
+  --color-sidebar-primary-foreground: var(--sidebar-primary-foreground);
+  --color-sidebar-accent: var(--sidebar-accent);
+  --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
+  --color-sidebar-border: var(--sidebar-border);
+  --color-sidebar-ring: var(--sidebar-ring);
+}
+
+:root {
+  /* Deep editorial surface used by the homepage hero and closing band */
+  --ink: oklch(0.205 0.018 240);
+  --ink-raised: oklch(0.255 0.02 240);
+  --ink-foreground: oklch(0.965 0.006 220);
+  --ink-muted: oklch(0.76 0.018 225);
+  --ink-line: oklch(0.42 0.025 235);
+  --warm: oklch(0.84 0.06 72);
+  --radius: 1rem;
+  --font-body-family: "Inter", "Noto Sans Devanagari", "Noto Sans Kannada", "Noto Naskh Arabic", ui-sans-serif, system-ui, sans-serif;
+  --font-display-family: "Manrope", "Noto Sans Devanagari", "Noto Sans Kannada", "Noto Naskh Arabic", ui-sans-serif, system-ui, sans-serif;
+
+  --ink: oklch(0.2753 0.0436 234.89);
+  --brand: oklch(0.599 0.0945 218.89);
+  --brand-foreground: oklch(1 0 0);
+  --brand-deep: oklch(0.45 0.0771 224.28);
+  --mist: oklch(0.9583 0.0104 219.59);
+
+  --background: oklch(0.9522 0.0104 219.59);
+  --foreground: oklch(0.2753 0.0436 234.89);
+  --surface: oklch(1 0 0 / 60%);
+  --surface-strong: oklch(1 0 0 / 82%);
+  --hairline: oklch(1 0 0 / 70%);
+
+  --card: oklch(1 0 0 / 72%);
+  --card-foreground: oklch(0.2753 0.0436 234.89);
+  --popover: oklch(0.9905 0.003 219.59);
+  --popover-foreground: oklch(0.2753 0.0436 234.89);
+
+  --primary: oklch(0.599 0.0945 218.89);
+  --primary-foreground: oklch(1 0 0);
+  --secondary: oklch(0.9583 0.0104 219.59);
+  --secondary-foreground: oklch(0.2753 0.0436 234.89);
+  --muted: oklch(0.9583 0.0104 219.59);
+  --muted-foreground: oklch(0.4884 0.0269 232);
+  --accent: oklch(0.6449 0.0705 178.55);
+  --accent-foreground: oklch(1 0 0);
+  --destructive: oklch(0.5471 0.187 26.2);
+  --destructive-foreground: oklch(1 0 0);
+  --border: oklch(0.8752 0.0163 224);
+  --input: oklch(0.8752 0.0163 224);
+  --ring: oklch(0.599 0.0945 218.89);
+
+  --status-pending: oklch(0.5484 0.0269 232);
+  --status-progress: oklch(0.599 0.0945 218.89);
+  --status-complete: oklch(0.5749 0.0705 178.55);
+  --arm-control: oklch(0.45 0.0771 224.28);
+  --arm-intervention: oklch(0.5749 0.0705 178.55);
+
+  --gradient-canvas: linear-gradient(
+    135deg,
+    oklch(0.9286 0.0177 229.01),
+    oklch(0.9522 0.0104 219.59) 45%,
+    oklch(0.9117 0.0223 179.16)
+  );
+  --blob-1: oklch(0.7969 0.0626 218.62);
+  --blob-2: oklch(0.8414 0.0491 179.96);
+  --blob-3: oklch(0.884 0.0372 238.12);
+
+  --shadow-frost: 0 24px 60px -32px oklch(0.45 0.0771 224.28 / 45%);
+  --shadow-raise: 0 12px 30px -18px oklch(0.45 0.0771 224.28 / 40%);
+
+  --chart-1: oklch(0.599 0.0945 218.89);
+  --chart-2: oklch(0.6449 0.0705 178.55);
+  --chart-3: oklch(0.45 0.0771 224.28);
+  --chart-4: oklch(0.7969 0.0626 218.62);
+  --chart-5: oklch(0.8414 0.0491 179.96);
+
+  --sidebar: oklch(1 0 0 / 70%);
+  --sidebar-foreground: oklch(0.2753 0.0436 234.89);
+  --sidebar-primary: oklch(0.599 0.0945 218.89);
+  --sidebar-primary-foreground: oklch(1 0 0);
+  --sidebar-accent: oklch(0.9583 0.0104 219.59);
+  --sidebar-accent-foreground: oklch(0.2753 0.0436 234.89);
+  --sidebar-border: oklch(0.8752 0.0163 224);
+  --sidebar-ring: oklch(0.599 0.0945 218.89);
+}
+
+@layer base {
+  * {
+    border-color: var(--color-border);
+  }
+
+  body {
+    background: var(--gradient-canvas);
+    background-attachment: fixed;
+    color: var(--color-foreground);
+    font-family: var(--font-body-family);
+    -webkit-font-smoothing: antialiased;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4 {
+    font-family: var(--font-display-family);
+    letter-spacing: -0.02em;
+  }
+
+  :focus-visible {
+    outline: 2px solid var(--color-ring);
+    outline-offset: 2px;
+  }
+}
+
+/* Frosted panel — the core surface of the design system */
+@utility frost {
+  background-color: var(--surface);
+  border: 1px solid var(--hairline);
+  backdrop-filter: blur(24px);
+  box-shadow: var(--shadow-frost);
+}
+
+@utility frost-solid {
+  background-color: var(--surface-strong);
+  border: 1px solid var(--hairline);
+  backdrop-filter: blur(24px);
+  box-shadow: var(--shadow-raise);
+}
+
+@utility inset-tile {
+  background-color: oklch(1 0 0 / 70%);
+  border: 1px solid var(--hairline);
+}
+
+@keyframes nc-float {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-16px);
+  }
+}
+
+@utility floaty {
+  animation: nc-float 9s ease-in-out infinite;
+}
+
+@utility floaty-slow {
+  animation: nc-float 12s ease-in-out infinite;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .floaty,
+  .floaty-slow {
+    animation: none;
+  }
+}
+
+@keyframes nc-dash { to { stroke-dashoffset: 0; } }
+@keyframes nc-pulse { 0%,100% { opacity: .35; } 50% { opacity: 1; } }
+@keyframes nc-nudge { 0%,100% { transform: translateY(0); } 50% { transform: translateY(6px); } }
+@keyframes nc-rise { from { opacity: 0; transform: translateY(14px); } to { opacity: 1; transform: none; } }
+@utility nc-rise { animation: nc-rise .9s cubic-bezier(.2,.7,.2,1) both; }
+@utility nc-pulse { animation: nc-pulse 2.8s ease-in-out infinite; }
+@utility nc-nudge { animation: nc-nudge 2.2s ease-in-out infinite; }
+@media (prefers-reduced-motion: reduce) {
+  .nc-rise, .nc-pulse, .nc-nudge { animation: none !important; }
+}
+
+@media print {
+  @page { size: A4; margin: 16mm; }
+}
+
+/* Print only the appointment checklist when its Print button is used. */
+@media print {
+  html.print-checklist body * { visibility: hidden; }
+  html.print-checklist .print-area,
+  html.print-checklist .print-area * { visibility: visible; }
+  html.print-checklist .print-area { position: absolute; inset: 0 auto auto 0; width: 100%; }
+  html.print-checklist .print-area .print\:hidden { display: none !important; }
+}
+
+/* Patient-area scripts: give Indic and Urdu text room for matras and diacritics. */
+:root:is(:lang(hi), :lang(mr), :lang(kn)) body { line-height: 1.7; }
+:root:lang(ur) body { line-height: 1.9; }
+:root:is(:lang(hi), :lang(mr), :lang(kn), :lang(ur)) :is(h1, h2, h3) { line-height: 1.35; letter-spacing: 0; }
+:root:is(:lang(hi), :lang(mr), :lang(kn), :lang(ur)) .uppercase { letter-spacing: 0.02em; }

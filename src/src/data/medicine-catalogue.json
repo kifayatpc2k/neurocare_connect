@@ -1,0 +1,2257 @@
+{
+  "schemaVersion": "1.0.0",
+  "catalogueMetadata": {
+    "catalogueId": "neurocare-medicine-education",
+    "title": "Understand Your Medicines",
+    "description": "General educational information about medicines for patients and caregivers.",
+    "language": "en-IN",
+    "country": "India",
+    "institution": "KLES Dr. Prabhakar Kore Hospital & Medical Research Centre",
+    "department": "Department of Neurology",
+    "intendedAudience": [
+      "patients",
+      "caregivers"
+    ],
+    "contentType": "patient-education",
+    "medicalDisclaimer": "This information is for general education only. It does not replace advice from a doctor, pharmacist, or other qualified healthcare professional. Do not start, stop, change, or share a medicine based on this information alone.",
+    "clinicalReviewStatus": "pending",
+    "lastClinicallyReviewed": null
+  },
+  "categories": [
+    {
+      "id": "neuropathic-pain",
+      "name": "Neuropathic Pain",
+      "description": "Medicines discussed for selected neuropathic-pain conditions.",
+      "displayOrder": 1
+    },
+    {
+      "id": "neurology",
+      "name": "Neurology and Seizure Care",
+      "description": "Medicines relevant to selected neurological conditions and seizure disorders.",
+      "displayOrder": 2
+    },
+    {
+      "id": "localised-pain",
+      "name": "Localised Pain",
+      "description": "Topical medicines used for selected localised pain conditions; formulation matters.",
+      "displayOrder": 3
+    },
+    {
+      "id": "diabetes",
+      "name": "Diabetes",
+      "description": "Medicines relevant to diabetes and glucose management.",
+      "displayOrder": 4
+    },
+    {
+      "id": "blood-pressure-cardiovascular",
+      "name": "Blood Pressure and Cardiovascular Health",
+      "description": "Medicines relevant to blood-pressure management and selected cardiovascular indications.",
+      "displayOrder": 5
+    },
+    {
+      "id": "cardiovascular-prevention",
+      "name": "Cholesterol and Cardiovascular Prevention",
+      "description": "Medicines relevant to cholesterol management, antiplatelet therapy and cardiovascular risk.",
+      "displayOrder": 6
+    },
+    {
+      "id": "gastrointestinal-health",
+      "name": "Stomach and Acid-Related Conditions",
+      "description": "Medicine relevant to acid-related gastrointestinal conditions and medication review.",
+      "displayOrder": 7
+    },
+    {
+      "id": "pain-fever",
+      "name": "Pain and General Symptom Relief",
+      "description": "Medicine for general pain and fever relief; not a specific neuropathic-pain treatment.",
+      "displayOrder": 8
+    },
+    {
+      "id": "thyroid-health",
+      "name": "Thyroid Health",
+      "description": "Thyroid hormone replacement and related monitoring.",
+      "displayOrder": 9
+    },
+    {
+      "id": "mental-health",
+      "name": "Mental Health",
+      "description": "Medicines also used for selected mood or anxiety disorders.",
+      "displayOrder": 10
+    }
+  ],
+  "medicines": [
+    {
+      "id": "pregabalin",
+      "name": "Pregabalin",
+      "genericName": "pregabalin",
+      "displayName": "Pregabalin",
+      "medicineGroup": "Gabapentinoid; anticonvulsant",
+      "categoryIds": [
+        "neuropathic-pain",
+        "neurology"
+      ],
+      "summary": "Used for certain types of nerve pain and some seizure disorders; suitability depends on the condition and clinician assessment.",
+      "whatIsItUsedFor": [
+        "Certain types of nerve pain.",
+        "Some seizure disorders."
+      ],
+      "howDoesItWork": "Changes nerve-signalling pathways involved in pain and seizures.",
+      "whatShouldIKnowBeforeTakingIt": [
+        "Kidney function may affect clearance.",
+        "Tell a healthcare professional about breathing problems, pregnancy or breastfeeding, and all other medicines.",
+        "Extra care may be needed with medicines that cause sedation."
+      ],
+      "possibleSideEffects": [
+        {
+          "description": "Sleepiness",
+          "severity": "unspecified",
+          "action": "Discuss persistent or concerning symptoms with a healthcare professional."
+        },
+        {
+          "description": "Dizziness",
+          "severity": "unspecified",
+          "action": "Discuss persistent or concerning symptoms with a healthcare professional."
+        },
+        {
+          "description": "Tiredness",
+          "severity": "unspecified",
+          "action": "Discuss persistent or concerning symptoms with a healthcare professional."
+        },
+        {
+          "description": "Blurred vision",
+          "severity": "unspecified",
+          "action": "Discuss persistent or concerning symptoms with a healthcare professional."
+        },
+        {
+          "description": "Swelling",
+          "severity": "unspecified",
+          "action": "Discuss persistent or concerning symptoms with a healthcare professional."
+        },
+        {
+          "description": "Weight gain",
+          "severity": "unspecified",
+          "action": "Discuss persistent or concerning symptoms with a healthcare professional."
+        }
+      ],
+      "whenToSeekMedicalHelp": [
+        {
+          "symptom": "Difficulty breathing",
+          "urgency": "urgent",
+          "action": "Seek urgent medical assessment."
+        },
+        {
+          "symptom": "Severe allergic swelling",
+          "urgency": "urgent",
+          "action": "Seek urgent medical assessment."
+        },
+        {
+          "symptom": "Extreme drowsiness",
+          "urgency": "urgent",
+          "action": "Seek urgent medical assessment."
+        },
+        {
+          "symptom": "Fainting",
+          "urgency": "urgent",
+          "action": "Seek urgent medical assessment."
+        },
+        {
+          "symptom": "New thoughts of self-harm",
+          "urgency": "urgent",
+          "action": "Seek urgent medical assessment."
+        }
+      ],
+      "safeUseReminders": [
+        "Follow the prescriber's instructions.",
+        "Do not stop suddenly; withdrawal symptoms can occur.",
+        "Avoid driving if sleepy or dizzy."
+      ],
+      "questionsToAskYourHealthcareProfessional": [
+        "How will we assess whether this medicine is helping?",
+        "Could it affect my balance or alertness?",
+        "Does my kidney function need to be considered?",
+        "What symptoms should prompt urgent medical attention?"
+      ],
+      "monitoring": [
+        "Pain and daily function",
+        "Alertness and balance",
+        "Swelling",
+        "Kidney function when indicated"
+      ],
+      "interactionCautions": [
+        {
+          "interactingSubstance": "Opioids, sedatives and other medicines that cause drowsiness",
+          "concern": "May increase excessive sedation or breathing-problem risk.",
+          "recommendedAction": "Ask a healthcare professional or pharmacist to review the combination."
+        }
+      ],
+      "formulations": [],
+      "sourceReferences": [],
+      "searchKeywords": [
+        "pregabalin",
+        "nerve pain",
+        "neuropathic pain",
+        "seizure disorders"
+      ],
+      "contentReview": {
+        "clinicalReviewRequired": true,
+        "reviewStatus": "pending",
+        "reviewNotes": [
+          "Source names NHS and NICE but provides no exact URLs; add verified references before publication.",
+          "The source names reference organisations/titles but does not provide exact source URLs; sourceReferences is empty rather than using guessed URLs.",
+          "Clinical pharmacist/clinician review is required before publication."
+        ]
+      }
+    },
+    {
+      "id": "gabapentin",
+      "name": "Gabapentin",
+      "genericName": "gabapentin",
+      "displayName": "Gabapentin",
+      "medicineGroup": "Gabapentinoid; anticonvulsant",
+      "categoryIds": [
+        "neuropathic-pain",
+        "neurology"
+      ],
+      "summary": "Used for certain types of nerve pain and seizure disorders.",
+      "whatIsItUsedFor": [
+        "Certain types of nerve pain.",
+        "Seizure disorders."
+      ],
+      "howDoesItWork": "Modifies nervous-system signalling to help reduce certain pain signals and control seizures.",
+      "whatShouldIKnowBeforeTakingIt": [
+        "Kidney function can affect clearance.",
+        "Inform a healthcare professional about breathing conditions and medicines that cause drowsiness."
+      ],
+      "possibleSideEffects": [
+        {
+          "description": "Sleepiness",
+          "severity": "unspecified",
+          "action": "Discuss persistent or concerning symptoms with a healthcare professional."
+        },
+        {
+          "description": "Dizziness",
+          "severity": "unspecified",
+          "action": "Discuss persistent or concerning symptoms with a healthcare professional."
+        },
+        {
+          "description": "Tiredness",
+          "severity": "unspecified",
+          "action": "Discuss persistent or concerning symptoms with a healthcare professional."
+        },
+        {
+          "description": "Unsteadiness",
+          "severity": "unspecified",
+          "action": "Discuss persistent or concerning symptoms with a healthcare professional."
+        },
+        {
+          "description": "Swelling",
+          "severity": "unspecified",
+          "action": "Discuss persistent or concerning symptoms with a healthcare professional."
+        }
+      ],
+      "whenToSeekMedicalHelp": [
+        {
+          "symptom": "Difficulty breathing",
+          "urgency": "urgent",
+          "action": "Seek urgent medical assessment."
+        },
+        {
+          "symptom": "Severe allergic reaction",
+          "urgency": "urgent",
+          "action": "Seek urgent medical assessment."
+        },
+        {
+          "symptom": "Extreme confusion or drowsiness",
+          "urgency": "urgent",
+          "action": "Seek urgent medical assessment."
+        },
+        {
+          "symptom": "New thoughts of self-harm",
+          "urgency": "urgent",
+          "action": "Seek urgent medical assessment."
+        }
+      ],
+      "safeUseReminders": [
+        "Follow prescribed instructions.",
+        "Do not stop suddenly without professional advice.",
+        "Avoid driving if alertness or coordination is affected."
+      ],
+      "questionsToAskYourHealthcareProfessional": [
+        "What improvement should I expect?",
+        "Could this medicine increase my risk of falling?",
+        "Does my kidney function affect its use?",
+        "How should discontinuation be managed if needed?"
+      ],
+      "monitoring": [
+        "Pain control and daily activities",
+        "Balance and sedation",
+        "Kidney function when indicated"
+      ],
+      "interactionCautions": [
+        {
+          "interactingSubstance": "Opioids and other sedating medicines",
+          "concern": "May increase drowsiness and breathing risks.",
+          "recommendedAction": "Ask a healthcare professional or pharmacist to review the combination."
+        },
+        {
+          "interactingSubstance": "Antacids",
+          "concern": "Possible interaction; the source recommends asking a pharmacist.",
+          "recommendedAction": "Ask a pharmacist about possible interactions."
+        }
+      ],
+      "formulations": [],
+      "sourceReferences": [],
+      "searchKeywords": [
+        "gabapentin",
+        "nerve pain",
+        "neuropathic pain",
+        "seizures"
+      ],
+      "contentReview": {
+        "clinicalReviewRequired": true,
+        "reviewStatus": "pending",
+        "reviewNotes": [
+          "Source names NHS and NICE but provides no exact URLs; add verified references before publication.",
+          "The source names reference organisations/titles but does not provide exact source URLs; sourceReferences is empty rather than using guessed URLs.",
+          "Clinical pharmacist/clinician review is required before publication."
+        ]
+      }
+    },
+    {
+      "id": "duloxetine",
+      "name": "Duloxetine",
+      "genericName": "duloxetine",
+      "displayName": "Duloxetine",
+      "medicineGroup": "Serotonin-noradrenaline reuptake inhibitor (SNRI)",
+      "categoryIds": [
+        "neuropathic-pain",
+        "mental-health"
+      ],
+      "summary": "Used for certain types of nerve pain and selected depression and anxiety disorders.",
+      "whatIsItUsedFor": [
+        "Certain types of nerve pain.",
+        "Selected depression and anxiety disorders."
+      ],
+      "howDoesItWork": "Changes serotonin and noradrenaline activity; these chemical messengers are involved in mood and pain processing.",
+      "whatShouldIKnowBeforeTakingIt": [
+        "Tell a healthcare professional about liver disease, kidney problems, high blood pressure, bipolar disorder, pregnancy or breastfeeding.",
+        "Other antidepressants and certain medicines can interact.",
+        "Dizziness may affect alertness."
+      ],
+      "possibleSideEffects": [
+        {
+          "description": "Nausea",
+          "severity": "unspecified",
+          "action": "Discuss persistent or concerning symptoms with a healthcare professional."
+        },
+        {
+          "description": "Dry mouth",
+          "severity": "unspecified",
+          "action": "Discuss persistent or concerning symptoms with a healthcare professional."
+        },
+        {
+          "description": "Constipation",
+          "severity": "unspecified",
+          "action": "Discuss persistent or concerning symptoms with a healthcare professional."
+        },
+        {
+          "description": "Dizziness",
+          "severity": "unspecified",
+          "action": "Discuss persistent or concerning symptoms with a healthcare professional."
+        },
+        {
+          "description": "Tiredness",
+          "severity": "unspecified",
+          "action": "Discuss persistent or concerning symptoms with a healthcare professional."
+        },
+        {
+          "description": "Sleep changes",
+          "severity": "unspecified",
+          "action": "Discuss persistent or concerning symptoms with a healthcare professional."
+        }
+      ],
+      "whenToSeekMedicalHelp": [
+        {
+          "symptom": "Severe agitation with fever, sweating or muscle twitching after a medicine combination",
+          "urgency": "urgent",
+          "action": "Seek urgent medical assessment."
+        },
+        {
+          "symptom": "Yellowing of skin or eyes",
+          "urgency": "urgent",
+          "action": "Seek urgent medical assessment."
+        },
+        {
+          "symptom": "Severe allergic reaction",
+          "urgency": "urgent",
+          "action": "Seek urgent medical assessment."
+        },
+        {
+          "symptom": "New or worsening suicidal thoughts",
+          "urgency": "urgent",
+          "action": "Seek urgent medical assessment."
+        }
+      ],
+      "safeUseReminders": [
+        "Do not stop suddenly without professional advice.",
+        "Share your complete medicine and supplement list.",
+        "Report troublesome side effects."
+      ],
+      "questionsToAskYourHealthcareProfessional": [
+        "Is this intended to help with nerve pain, mood symptoms or both?",
+        "Could it interact with my other medicines?",
+        "What symptoms require urgent attention?",
+        "How will benefits and side effects be reviewed?"
+      ],
+      "monitoring": [
+        "Pain and daily function",
+        "Mood",
+        "Blood pressure when appropriate",
+        "Liver or kidney considerations when indicated"
+      ],
+      "interactionCautions": [
+        {
+          "interactingSubstance": "Other medicines affecting serotonin",
+          "concern": "May increase risk of serotonin syndrome.",
+          "recommendedAction": "Have combinations reviewed by a healthcare professional."
+        },
+        {
+          "interactingSubstance": "Medicines that increase bleeding risk",
+          "concern": "May require additional review.",
+          "recommendedAction": "Tell your healthcare professional about all medicines."
+        }
+      ],
+      "formulations": [],
+      "sourceReferences": [],
+      "searchKeywords": [
+        "duloxetine",
+        "nerve pain",
+        "neuropathic pain",
+        "depression",
+        "anxiety",
+        "snri"
+      ],
+      "contentReview": {
+        "clinicalReviewRequired": true,
+        "reviewStatus": "pending",
+        "reviewNotes": [
+          "Source names NICE and NHS but provides no exact URLs; add verified references before publication.",
+          "The source names reference organisations/titles but does not provide exact source URLs; sourceReferences is empty rather than using guessed URLs.",
+          "Clinical pharmacist/clinician review is required before publication."
+        ]
+      }
+    },
+    {
+      "id": "amitriptyline",
+      "name": "Amitriptyline",
+      "genericName": "amitriptyline",
+      "displayName": "Amitriptyline",
+      "medicineGroup": "Tricyclic antidepressant",
+      "categoryIds": [
+        "neuropathic-pain",
+        "mental-health"
+      ],
+      "summary": "Used for certain types of nerve pain and depression, and for migraine prevention in selected circumstances.",
+      "whatIsItUsedFor": [
+        "Certain types of nerve pain.",
+        "Depression.",
+        "Migraine prevention in selected circumstances."
+      ],
+      "howDoesItWork": "Changes chemical-messenger activity involved in pain processing and mood.",
+      "whatShouldIKnowBeforeTakingIt": [
+        "Tell a healthcare professional about heart problems, glaucoma, difficulty passing urine, epilepsy and liver disease.",
+        "Sleepiness, dry mouth, constipation and dizziness on standing can occur.",
+        "Sedating or anticholinergic medicines may increase side effects."
+      ],
+      "possibleSideEffects": [
+        {
+          "description": "Dry mouth",
+          "severity": "unspecified",
+          "action": "Discuss persistent or concerning symptoms with a healthcare professional."
+        },
+        {
+          "description": "Constipation",
+          "severity": "unspecified",
+          "action": "Discuss persistent or concerning symptoms with a healthcare professional."
+        },
+        {
+          "description": "Sleepiness",
+          "severity": "unspecified",
+          "action": "Discuss persistent or concerning symptoms with a healthcare professional."
+        },
+        {
+          "description": "Dizziness",
+          "severity": "unspecified",
+          "action": "Discuss persistent or concerning symptoms with a healthcare professional."
+        },
+        {
+          "description": "Difficulty passing urine",
+          "severity": "unspecified",
+          "action": "Discuss persistent or concerning symptoms with a healthcare professional."
+        }
+      ],
+      "whenToSeekMedicalHelp": [
+        {
+          "symptom": "Fast or irregular heartbeat with concerning symptoms",
+          "urgency": "urgent",
+          "action": "Seek urgent medical assessment."
+        },
+        {
+          "symptom": "Inability to pass urine",
+          "urgency": "urgent",
+          "action": "Seek urgent medical assessment."
+        },
+        {
+          "symptom": "Seizures",
+          "urgency": "urgent",
+          "action": "Seek urgent medical assessment."
+        },
+        {
+          "symptom": "Severe allergic reaction",
+          "urgency": "urgent",
+          "action": "Seek urgent medical assessment."
+        },
+        {
+          "symptom": "New thoughts of self-harm",
+          "urgency": "urgent",
+          "action": "Seek urgent medical assessment."
+        }
+      ],
+      "safeUseReminders": [
+        "Follow prescribed instructions.",
+        "Do not stop suddenly without professional advice.",
+        "Avoid driving if sleepy or dizzy."
+      ],
+      "questionsToAskYourHealthcareProfessional": [
+        "What is the intended benefit in my case?",
+        "Could it worsen constipation or urinary problems?",
+        "Could it interact with my heart medicines?",
+        "When should treatment be reviewed?"
+      ],
+      "monitoring": [
+        "Pain and sleep",
+        "Alertness and falls",
+        "Anticholinergic side effects",
+        "Heart assessment when clinically indicated"
+      ],
+      "interactionCautions": [
+        {
+          "interactingSubstance": "Other antidepressants, sedatives and medicines affecting heart rhythm",
+          "concern": "May require careful review due to potential interactions or additive effects.",
+          "recommendedAction": "Ask a healthcare professional or pharmacist to review the full medicine list."
+        }
+      ],
+      "formulations": [],
+      "sourceReferences": [],
+      "searchKeywords": [
+        "amitriptyline",
+        "nerve pain",
+        "neuropathic pain",
+        "depression",
+        "migraine"
+      ],
+      "contentReview": {
+        "clinicalReviewRequired": true,
+        "reviewStatus": "pending",
+        "reviewNotes": [
+          "Source names NICE and NHS but provides no exact URLs; add verified references before publication.",
+          "The source names reference organisations/titles but does not provide exact source URLs; sourceReferences is empty rather than using guessed URLs.",
+          "Clinical pharmacist/clinician review is required before publication."
+        ]
+      }
+    },
+    {
+      "id": "nortriptyline",
+      "name": "Nortriptyline",
+      "genericName": "nortriptyline",
+      "displayName": "Nortriptyline",
+      "medicineGroup": "Tricyclic antidepressant",
+      "categoryIds": [
+        "neuropathic-pain",
+        "mental-health"
+      ],
+      "summary": "Used for depression and may be used for selected nerve-pain conditions depending on clinical assessment and local guidance.",
+      "whatIsItUsedFor": [
+        "Depression.",
+        "Selected nerve-pain conditions, depending on clinical assessment and local guidance."
+      ],
+      "howDoesItWork": "Changes chemical-messenger activity involved in mood and pain signalling.",
+      "whatShouldIKnowBeforeTakingIt": [
+        "Discuss heart problems, glaucoma, urinary difficulty, epilepsy and liver disease with a healthcare professional.",
+        "May cause sleepiness, dizziness, dry mouth and constipation.",
+        "Review other medicines for possible interactions."
+      ],
+      "possibleSideEffects": [
+        {
+          "description": "Dry mouth",
+          "severity": "unspecified",
+          "action": "Discuss persistent or concerning symptoms with a healthcare professional."
+        },
+        {
+          "description": "Constipation",
+          "severity": "unspecified",
+          "action": "Discuss persistent or concerning symptoms with a healthcare professional."
+        },
+        {
+          "description": "Sleepiness",
+          "severity": "unspecified",
+          "action": "Discuss persistent or concerning symptoms with a healthcare professional."
+        },
+        {
+          "description": "Dizziness",
+          "severity": "unspecified",
+          "action": "Discuss persistent or concerning symptoms with a healthcare professional."
+        },
+        {
+          "description": "Difficulty passing urine",
+          "severity": "unspecified",
+          "action": "Discuss persistent or concerning symptoms with a healthcare professional."
+        }
+      ],
+      "whenToSeekMedicalHelp": [
+        {
+          "symptom": "Irregular heartbeat with concerning symptoms",
+          "urgency": "urgent",
+          "action": "Seek urgent medical assessment."
+        },
+        {
+          "symptom": "Inability to pass urine",
+          "urgency": "urgent",
+          "action": "Seek urgent medical assessment."
+        },
+        {
+          "symptom": "Severe allergic reaction",
+          "urgency": "urgent",
+          "action": "Seek urgent medical assessment."
+        },
+        {
+          "symptom": "Yellowing of skin or eyes",
+          "urgency": "urgent",
+          "action": "Seek urgent medical assessment."
+        },
+        {
+          "symptom": "New thoughts of self-harm",
+          "urgency": "prompt",
+          "action": "Contact a healthcare professional promptly."
+        }
+      ],
+      "safeUseReminders": [
+        "Do not change or stop treatment independently.",
+        "Avoid driving if alertness is affected.",
+        "Discuss persistent side effects with a healthcare professional."
+      ],
+      "questionsToAskYourHealthcareProfessional": [
+        "What is this medicine intended to treat?",
+        "Could it affect urination or bowel movements?",
+        "Are there interactions with my current medicines?",
+        "How will we assess whether it is helping?"
+      ],
+      "monitoring": [
+        "Pain or mood symptoms",
+        "Alertness",
+        "Bowel and urinary symptoms",
+        "Heart-related risks when indicated"
+      ],
+      "interactionCautions": [
+        {
+          "interactingSubstance": "Other antidepressants, sedatives and medicines with anticholinergic effects",
+          "concern": "May increase adverse effects.",
+          "recommendedAction": "Ask a healthcare professional or pharmacist to review the combination."
+        }
+      ],
+      "formulations": [],
+      "sourceReferences": [],
+      "searchKeywords": [
+        "nortriptyline",
+        "nerve pain",
+        "depression",
+        "tricyclic antidepressant"
+      ],
+      "contentReview": {
+        "clinicalReviewRequired": true,
+        "reviewStatus": "pending",
+        "reviewNotes": [
+          "Source notes nortriptyline is not one of the four medicines specifically named by NICE as initial treatment for general neuropathic pain. Source names NHS and NICE but supplies no exact URLs.",
+          "The source names reference organisations/titles but does not provide exact source URLs; sourceReferences is empty rather than using guessed URLs.",
+          "Clinical pharmacist/clinician review is required before publication."
+        ]
+      }
+    },
+    {
+      "id": "carbamazepine",
+      "name": "Carbamazepine",
+      "genericName": "carbamazepine",
+      "displayName": "Carbamazepine",
+      "medicineGroup": "Anticonvulsant",
+      "categoryIds": [
+        "neurology",
+        "neuropathic-pain"
+      ],
+      "summary": "Used for certain seizure disorders and trigeminal neuralgia, which causes episodes of severe facial pain.",
+      "whatIsItUsedFor": [
+        "Certain seizure disorders.",
+        "Trigeminal neuralgia."
+      ],
+      "howDoesItWork": "Reduces repetitive electrical activity in nerve cells.",
+      "whatShouldIKnowBeforeTakingIt": [
+        "Can affect blood cells, liver function and sodium levels.",
+        "Tell a healthcare professional about previous blood disorders, liver problems, heart conditions, pregnancy or plans for pregnancy.",
+        "Has many clinically important drug interactions."
+      ],
+      "possibleSideEffects": [
+        {
+          "description": "Dizziness",
+          "severity": "unspecified",
+          "action": "Discuss persistent or concerning symptoms with a healthcare professional."
+        },
+        {
+          "description": "Sleepiness",
+          "severity": "unspecified",
+          "action": "Discuss persistent or concerning symptoms with a healthcare professional."
+        },
+        {
+          "description": "Nausea",
+          "severity": "unspecified",
+          "action": "Discuss persistent or concerning symptoms with a healthcare professional."
+        },
+        {
+          "description": "Unsteadiness",
+          "severity": "unspecified",
+          "action": "Discuss persistent or concerning symptoms with a healthcare professional."
+        },
+        {
+          "description": "Blurred or double vision",
+          "severity": "unspecified",
+          "action": "Discuss persistent or concerning symptoms with a healthcare professional."
+        }
+      ],
+      "whenToSeekMedicalHelp": [
+        {
+          "symptom": "Severe rash, blistering or mouth sores",
+          "urgency": "urgent",
+          "action": "Seek urgent medical assessment."
+        },
+        {
+          "symptom": "Fever with sore throat",
+          "urgency": "urgent",
+          "action": "Seek urgent medical assessment."
+        },
+        {
+          "symptom": "Unusual bruising",
+          "urgency": "urgent",
+          "action": "Seek urgent medical assessment."
+        },
+        {
+          "symptom": "Yellowing of skin or eyes",
+          "urgency": "urgent",
+          "action": "Seek urgent medical assessment."
+        },
+        {
+          "symptom": "Severe allergic reaction",
+          "urgency": "urgent",
+          "action": "Seek urgent medical assessment."
+        }
+      ],
+      "safeUseReminders": [
+        "Do not stop suddenly, particularly when used for seizures.",
+        "Report rash, fever or unusual bruising promptly.",
+        "Keep scheduled laboratory appointments."
+      ],
+      "questionsToAskYourHealthcareProfessional": [
+        "Which blood tests will I need?",
+        "Could this interact with contraception or my other medicines?",
+        "Which skin changes require urgent attention?",
+        "What should I do if I miss a dose?"
+      ],
+      "monitoring": [
+        "Blood count",
+        "Liver function",
+        "Sodium",
+        "Treatment response when recommended"
+      ],
+      "interactionCautions": [
+        {
+          "interactingSubstance": "Some contraceptives and other anticonvulsants",
+          "concern": "Carbamazepine can change the effects of many medicines.",
+          "recommendedAction": "Have all medicines and contraception reviewed by a healthcare professional."
+        }
+      ],
+      "formulations": [],
+      "sourceReferences": [],
+      "searchKeywords": [
+        "carbamazepine",
+        "trigeminal neuralgia",
+        "facial pain",
+        "seizures",
+        "anticonvulsant"
+      ],
+      "contentReview": {
+        "clinicalReviewRequired": true,
+        "reviewStatus": "pending",
+        "reviewNotes": [
+          "Source names NICE but supplies no exact URL; verify current product-specific information.",
+          "The source names reference organisations/titles but does not provide exact source URLs; sourceReferences is empty rather than using guessed URLs.",
+          "Clinical pharmacist/clinician review is required before publication."
+        ]
+      }
+    },
+    {
+      "id": "topical-lidocaine",
+      "name": "Topical lidocaine",
+      "genericName": "lidocaine",
+      "displayName": "Topical lidocaine",
+      "medicineGroup": "Local anaesthetic; topical treatment",
+      "categoryIds": [
+        "localised-pain"
+      ],
+      "summary": "Certain lidocaine preparations are used for local anaesthesia or selected localised pain conditions; approved use depends on formulation.",
+      "whatIsItUsedFor": [
+        "Local anaesthesia with appropriate preparations.",
+        "Selected localised pain conditions, depending on formulation."
+      ],
+      "howDoesItWork": "Temporarily blocks nerve signals in the area where it is applied.",
+      "whatShouldIKnowBeforeTakingIt": [
+        "Creams, gels, sprays, patches and injectable products are not interchangeable.",
+        "Follow instructions for the specific product and body area.",
+        "Avoid large areas or damaged skin unless specifically directed by a healthcare professional."
+      ],
+      "possibleSideEffects": [
+        {
+          "description": "Local redness",
+          "severity": "unspecified",
+          "action": "Discuss persistent or concerning symptoms with a healthcare professional."
+        },
+        {
+          "description": "Burning",
+          "severity": "unspecified",
+          "action": "Discuss persistent or concerning symptoms with a healthcare professional."
+        },
+        {
+          "description": "Itching",
+          "severity": "unspecified",
+          "action": "Discuss persistent or concerning symptoms with a healthcare professional."
+        },
+        {
+          "description": "Irritation",
+          "severity": "unspecified",
+          "action": "Discuss persistent or concerning symptoms with a healthcare professional."
+        }
+      ],
+      "whenToSeekMedicalHelp": [
+        {
+          "symptom": "Severe allergic reaction",
+          "urgency": "urgent",
+          "action": "Seek urgent medical assessment."
+        },
+        {
+          "symptom": "Unusual confusion, seizures, bluish or grey lips or skin, or abnormal heart rhythm suggesting excessive absorption",
+          "urgency": "urgent",
+          "action": "Seek urgent medical assessment."
+        }
+      ],
+      "safeUseReminders": [
+        "Use only the specified formulation and application method.",
+        "Keep products away from children.",
+        "Avoid eyes and mouth unless the product is specifically intended for that use."
+      ],
+      "questionsToAskYourHealthcareProfessional": [
+        "Is this formulation suitable for my condition?",
+        "Where and for how long should it be applied?",
+        "Can it be combined with other topical pain products?",
+        "Which skin reactions require review?"
+      ],
+      "monitoring": [
+        "Skin irritation",
+        "Correct application",
+        "Signs of excessive exposure"
+      ],
+      "interactionCautions": [
+        {
+          "interactingSubstance": "Other local anaesthetics and certain heart-rhythm medicines",
+          "concern": "May require review.",
+          "recommendedAction": "Ask a healthcare professional or pharmacist to check the specific product and medicine list."
+        }
+      ],
+      "formulations": [
+        "Formulation varies; source mentions creams, gels, sprays, patches and injectable products."
+      ],
+      "sourceReferences": [],
+      "searchKeywords": [
+        "topical lidocaine",
+        "lidocaine",
+        "local anaesthetic",
+        "localised pain",
+        "lidocaine patch",
+        "lidocaine cream"
+      ],
+      "contentReview": {
+        "clinicalReviewRequired": true,
+        "reviewStatus": "pending",
+        "reviewNotes": [
+          "Formulations are not interchangeable. Product-specific Indian-approved information must be verified before publication.",
+          "The source names reference organisations/titles but does not provide exact source URLs; sourceReferences is empty rather than using guessed URLs.",
+          "Clinical pharmacist/clinician review is required before publication."
+        ]
+      }
+    },
+    {
+      "id": "topical-capsaicin",
+      "name": "Topical capsaicin",
+      "genericName": "capsaicin",
+      "displayName": "Topical capsaicin",
+      "medicineGroup": "Topical analgesic",
+      "categoryIds": [
+        "localised-pain",
+        "neuropathic-pain"
+      ],
+      "summary": "Some capsaicin formulations are used for localised pain; appropriate use depends on formulation and condition.",
+      "whatIsItUsedFor": [
+        "Localised pain with selected formulations."
+      ],
+      "howDoesItWork": "Acts on sensory nerve endings and can change pain signalling.",
+      "whatShouldIKnowBeforeTakingIt": [
+        "Burning and irritation at the application site are practical concerns.",
+        "Avoid eyes, mouth and other sensitive areas.",
+        "Creams and high-concentration patches are different products and not interchangeable."
+      ],
+      "possibleSideEffects": [
+        {
+          "description": "Burning at application site",
+          "severity": "unspecified",
+          "action": "Discuss persistent or concerning symptoms with a healthcare professional."
+        },
+        {
+          "description": "Stinging",
+          "severity": "unspecified",
+          "action": "Discuss persistent or concerning symptoms with a healthcare professional."
+        },
+        {
+          "description": "Redness",
+          "severity": "unspecified",
+          "action": "Discuss persistent or concerning symptoms with a healthcare professional."
+        },
+        {
+          "description": "Itching",
+          "severity": "unspecified",
+          "action": "Discuss persistent or concerning symptoms with a healthcare professional."
+        }
+      ],
+      "whenToSeekMedicalHelp": [
+        {
+          "symptom": "Severe skin reaction",
+          "urgency": "prompt",
+          "action": "Contact a healthcare professional promptly."
+        },
+        {
+          "symptom": "Persistent eye pain after accidental exposure",
+          "urgency": "prompt",
+          "action": "Contact a healthcare professional promptly."
+        },
+        {
+          "symptom": "Breathing difficulty after significant exposure to fumes",
+          "urgency": "urgent",
+          "action": "Seek urgent medical assessment."
+        }
+      ],
+      "safeUseReminders": [
+        "Follow instructions for the exact product.",
+        "Wash hands after application unless product instructions for the treated area say otherwise.",
+        "Do not apply heat over treated skin unless product instructions specifically allow it."
+      ],
+      "questionsToAskYourHealthcareProfessional": [
+        "Which formulation is intended for my condition?",
+        "How can I prevent accidental eye exposure?",
+        "What level of skin irritation should I report?",
+        "When should treatment be reviewed?"
+      ],
+      "monitoring": [
+        "Skin tolerance",
+        "Pain",
+        "Correct product use"
+      ],
+      "interactionCautions": [
+        {
+          "interactingSubstance": "Other irritating topical products",
+          "concern": "Combining them may increase irritation.",
+          "recommendedAction": "Avoid combining unless a healthcare professional advises it."
+        }
+      ],
+      "formulations": [
+        "Capsaicin cream and high-concentration patches are distinct formulations."
+      ],
+      "sourceReferences": [],
+      "searchKeywords": [
+        "topical capsaicin",
+        "capsaicin",
+        "localised pain",
+        "capsaicin cream",
+        "capsaicin patch"
+      ],
+      "contentReview": {
+        "clinicalReviewRequired": true,
+        "reviewStatus": "pending",
+        "reviewNotes": [
+          "Source distinguishes cream from patch and notes high-concentration patch use should not be started in non-specialist settings without specialist advice. Exact source URL absent.",
+          "The source names reference organisations/titles but does not provide exact source URLs; sourceReferences is empty rather than using guessed URLs.",
+          "Clinical pharmacist/clinician review is required before publication."
+        ]
+      }
+    },
+    {
+      "id": "metformin",
+      "name": "Metformin",
+      "genericName": "metformin",
+      "displayName": "Metformin",
+      "medicineGroup": "Biguanide antidiabetic",
+      "categoryIds": [
+        "diabetes"
+      ],
+      "summary": "Commonly used for type 2 diabetes, alone or with other diabetes medicines.",
+      "whatIsItUsedFor": [
+        "Management of type 2 diabetes."
+      ],
+      "howDoesItWork": "Reduces glucose production by the liver and improves the body's response to insulin.",
+      "whatShouldIKnowBeforeTakingIt": [
+        "Kidney function is important when assessing suitability.",
+        "Tell a healthcare professional about liver disease, dehydration, severe infection or heavy alcohol use.",
+        "Long-term use can be associated with vitamin B12 deficiency, which may contribute to anaemia or nerve symptoms."
+      ],
+      "possibleSideEffects": [
+        {
+          "description": "Nausea",
+          "severity": "unspecified",
+          "action": "Discuss persistent or concerning symptoms with a healthcare professional."
+        },
+        {
+          "description": "Diarrhoea",
+          "severity": "unspecified",
+          "action": "Discuss persistent or concerning symptoms with a healthcare professional."
+        },
+        {
+          "description": "Stomach discomfort",
+          "severity": "unspecified",
+          "action": "Discuss persistent or concerning symptoms with a healthcare professional."
+        },
+        {
+          "description": "Reduced appetite",
+          "severity": "unspecified",
+          "action": "Discuss persistent or concerning symptoms with a healthcare professional."
+        },
+        {
+          "description": "Vitamin B12 deficiency with longer-term use",
+          "severity": "unspecified",
+          "action": "Discuss persistent or concerning symptoms with a healthcare professional."
+        }
+      ],
+      "whenToSeekMedicalHelp": [
+        {
+          "symptom": "Severe weakness with vomiting, abdominal pain, muscle cramps or breathing difficulty",
+          "urgency": "urgent",
+          "action": "Seek urgent medical assessment."
+        },
+        {
+          "symptom": "Severe allergic reaction",
+          "urgency": "urgent",
+          "action": "Seek urgent medical assessment."
+        }
+      ],
+      "safeUseReminders": [
+        "Follow prescribed instructions.",
+        "Do not independently change treatment during serious illness or around medical procedures.",
+        "Discuss persistent digestive symptoms with a healthcare professional."
+      ],
+      "questionsToAskYourHealthcareProfessional": [
+        "How often should kidney function be checked?",
+        "Should my vitamin B12 level be assessed?",
+        "What should I do if dehydrated or seriously unwell?",
+        "Could my medicines contribute to nerve symptoms?"
+      ],
+      "monitoring": [
+        "Blood glucose",
+        "HbA1c",
+        "Kidney function",
+        "Vitamin B12 when clinically indicated"
+      ],
+      "interactionCautions": [
+        {
+          "interactingSubstance": "Other glucose-lowering medicines",
+          "concern": "May require review of combined glucose-lowering effects.",
+          "recommendedAction": "Have the full regimen reviewed."
+        },
+        {
+          "interactingSubstance": "Some contrast-agent procedures and medicines affecting kidney function",
+          "concern": "May require clinical review.",
+          "recommendedAction": "Tell the healthcare team about metformin before procedures and ask for specific instructions."
+        }
+      ],
+      "formulations": [],
+      "sourceReferences": [],
+      "searchKeywords": [
+        "metformin",
+        "type 2 diabetes",
+        "blood glucose",
+        "vitamin b12"
+      ],
+      "contentReview": {
+        "clinicalReviewRequired": true,
+        "reviewStatus": "pending",
+        "reviewNotes": [
+          "Source names NHS and Government of India NLEM but provides no exact URLs; verify current product information.",
+          "The source names reference organisations/titles but does not provide exact source URLs; sourceReferences is empty rather than using guessed URLs.",
+          "Clinical pharmacist/clinician review is required before publication."
+        ]
+      }
+    },
+    {
+      "id": "insulin",
+      "name": "Insulin",
+      "genericName": "insulin",
+      "displayName": "Insulin",
+      "medicineGroup": "Insulin; glucose-lowering hormone",
+      "categoryIds": [
+        "diabetes"
+      ],
+      "summary": "Used in diabetes when insulin treatment is needed; the prescribed type depends on the person's condition and treatment plan.",
+      "whatIsItUsedFor": [
+        "Diabetes when insulin treatment is needed."
+      ],
+      "howDoesItWork": "Helps glucose move from blood into cells, reducing blood glucose levels.",
+      "whatShouldIKnowBeforeTakingIt": [
+        "Different insulin products have different onset times and durations.",
+        "Meal timing, physical activity, illness, injection technique and storage affect safety.",
+        "Learn to recognise and respond to low blood sugar.",
+        "Confirm the exact product and delivery device before product-specific education."
+      ],
+      "possibleSideEffects": [
+        {
+          "description": "Low blood sugar",
+          "severity": "unspecified",
+          "action": "Discuss persistent or concerning symptoms with a healthcare professional."
+        },
+        {
+          "description": "Weight gain",
+          "severity": "unspecified",
+          "action": "Discuss persistent or concerning symptoms with a healthcare professional."
+        },
+        {
+          "description": "Injection-site irritation",
+          "severity": "unspecified",
+          "action": "Discuss persistent or concerning symptoms with a healthcare professional."
+        },
+        {
+          "description": "Changes in fatty tissue under the skin at injection sites",
+          "severity": "unspecified",
+          "action": "Discuss persistent or concerning symptoms with a healthcare professional."
+        }
+      ],
+      "whenToSeekMedicalHelp": [
+        {
+          "symptom": "Severe hypoglycaemia causing confusion, seizures or unconsciousness",
+          "urgency": "emergency",
+          "action": "Seek emergency medical care."
+        },
+        {
+          "symptom": "Severe allergic reaction",
+          "urgency": "urgent",
+          "action": "Seek urgent medical assessment."
+        }
+      ],
+      "safeUseReminders": [
+        "Never substitute insulin products or concentrations without explicit professional instructions.",
+        "Follow the individual blood-glucose monitoring and low-blood-sugar plan.",
+        "Follow storage instructions for the exact product."
+      ],
+      "questionsToAskYourHealthcareProfessional": [
+        "Which exact insulin product and device do I use?",
+        "How do I recognise and respond to low blood sugar?",
+        "How should my insulin be stored during travel?",
+        "What should I do during illness or when meals are delayed?"
+      ],
+      "monitoring": [
+        "Blood glucose",
+        "HbA1c",
+        "Hypoglycaemia episodes",
+        "Injection technique and sites"
+      ],
+      "interactionCautions": [
+        {
+          "interactingSubstance": "Other diabetes medicines",
+          "concern": "Can increase hypoglycaemia risk.",
+          "recommendedAction": "Review combinations with the healthcare professional."
+        },
+        {
+          "interactingSubstance": "Steroids and certain other medicines",
+          "concern": "Can change blood glucose.",
+          "recommendedAction": "Ask whether monitoring or the treatment plan needs review."
+        }
+      ],
+      "formulations": [
+        "Insulin type, formulation, concentration and delivery device must be identified; products are not interchangeable."
+      ],
+      "sourceReferences": [],
+      "searchKeywords": [
+        "insulin",
+        "diabetes",
+        "blood glucose",
+        "hypoglycaemia",
+        "low blood sugar"
+      ],
+      "contentReview": {
+        "clinicalReviewRequired": true,
+        "reviewStatus": "pending",
+        "reviewNotes": [
+          "Do not infer any specific insulin product or formulation. Product-specific education and storage information require verification.",
+          "The source names reference organisations/titles but does not provide exact source URLs; sourceReferences is empty rather than using guessed URLs.",
+          "Clinical pharmacist/clinician review is required before publication."
+        ]
+      }
+    },
+    {
+      "id": "gliclazide",
+      "name": "Gliclazide",
+      "genericName": "gliclazide",
+      "displayName": "Gliclazide",
+      "medicineGroup": "Sulfonylurea antidiabetic",
+      "categoryIds": [
+        "diabetes"
+      ],
+      "summary": "Used for type 2 diabetes in selected patients.",
+      "whatIsItUsedFor": [
+        "Type 2 diabetes in selected patients."
+      ],
+      "howDoesItWork": "Stimulates the pancreas to release insulin, helping lower blood glucose.",
+      "whatShouldIKnowBeforeTakingIt": [
+        "Low blood sugar is an important risk.",
+        "Delayed or missed meals, changes in activity and other glucose-lowering medicines may affect this risk.",
+        "Tell a healthcare professional about kidney or liver problems and other medicines."
+      ],
+      "possibleSideEffects": [
+        {
+          "description": "Low blood sugar",
+          "severity": "unspecified",
+          "action": "Discuss persistent or concerning symptoms with a healthcare professional."
+        },
+        {
+          "description": "Stomach upset",
+          "severity": "unspecified",
+          "action": "Discuss persistent or concerning symptoms with a healthcare professional."
+        },
+        {
+          "description": "Weight gain in some people",
+          "severity": "unspecified",
+          "action": "Discuss persistent or concerning symptoms with a healthcare professional."
+        }
+      ],
+      "whenToSeekMedicalHelp": [
+        {
+          "symptom": "Severe low blood sugar causing confusion, seizures or unconsciousness",
+          "urgency": "emergency",
+          "action": "Seek emergency medical care."
+        },
+        {
+          "symptom": "Severe allergic reaction",
+          "urgency": "urgent",
+          "action": "Seek urgent medical assessment."
+        }
+      ],
+      "safeUseReminders": [
+        "Follow the prescribed plan and meal instructions.",
+        "Learn to recognise low blood sugar.",
+        "Do not change the dose independently."
+      ],
+      "questionsToAskYourHealthcareProfessional": [
+        "How can I recognise low blood sugar?",
+        "What should I do if a meal is delayed?",
+        "Could my other medicines increase hypoglycaemia risk?",
+        "How often should glucose control be reviewed?"
+      ],
+      "monitoring": [
+        "Blood glucose",
+        "HbA1c",
+        "Hypoglycaemia episodes",
+        "Kidney or liver function when indicated"
+      ],
+      "interactionCautions": [
+        {
+          "interactingSubstance": "Other glucose-lowering medicines and certain antibiotics or antifungals",
+          "concern": "Can alter glucose control or hypoglycaemia risk.",
+          "recommendedAction": "Have the combination reviewed by a healthcare professional or pharmacist."
+        }
+      ],
+      "formulations": [],
+      "sourceReferences": [],
+      "searchKeywords": [
+        "gliclazide",
+        "type 2 diabetes",
+        "hypoglycaemia",
+        "low blood sugar"
+      ],
+      "contentReview": {
+        "clinicalReviewRequired": true,
+        "reviewStatus": "pending",
+        "reviewNotes": [
+          "Drug-specific information should be verified against current Indian-approved product information. Source provides no exact URL.",
+          "The source names reference organisations/titles but does not provide exact source URLs; sourceReferences is empty rather than using guessed URLs.",
+          "Clinical pharmacist/clinician review is required before publication."
+        ]
+      }
+    },
+    {
+      "id": "amlodipine",
+      "name": "Amlodipine",
+      "genericName": "amlodipine",
+      "displayName": "Amlodipine",
+      "medicineGroup": "Calcium-channel blocker",
+      "categoryIds": [
+        "blood-pressure-cardiovascular"
+      ],
+      "summary": "Used to manage high blood pressure and may be prescribed for angina, a type of chest pain.",
+      "whatIsItUsedFor": [
+        "High blood pressure.",
+        "Angina in appropriate patients."
+      ],
+      "howDoesItWork": "Relaxes blood vessels, making blood flow easier and helping lower blood pressure.",
+      "whatShouldIKnowBeforeTakingIt": [
+        "Tell a healthcare professional about liver disease, heart conditions, pregnancy or breastfeeding.",
+        "Dizziness can occur, particularly when blood pressure falls.",
+        "Ankle swelling is a recognised side effect."
+      ],
+      "possibleSideEffects": [
+        {
+          "description": "Ankle swelling",
+          "severity": "unspecified",
+          "action": "Discuss persistent or concerning symptoms with a healthcare professional."
+        },
+        {
+          "description": "Headache",
+          "severity": "unspecified",
+          "action": "Discuss persistent or concerning symptoms with a healthcare professional."
+        },
+        {
+          "description": "Dizziness",
+          "severity": "unspecified",
+          "action": "Discuss persistent or concerning symptoms with a healthcare professional."
+        },
+        {
+          "description": "Flushing",
+          "severity": "unspecified",
+          "action": "Discuss persistent or concerning symptoms with a healthcare professional."
+        },
+        {
+          "description": "Tiredness",
+          "severity": "unspecified",
+          "action": "Discuss persistent or concerning symptoms with a healthcare professional."
+        },
+        {
+          "description": "Palpitations",
+          "severity": "unspecified",
+          "action": "Discuss persistent or concerning symptoms with a healthcare professional."
+        }
+      ],
+      "whenToSeekMedicalHelp": [
+        {
+          "symptom": "Severe allergic reaction",
+          "urgency": "urgent",
+          "action": "Seek urgent medical assessment."
+        },
+        {
+          "symptom": "Fainting with concerning symptoms",
+          "urgency": "urgent",
+          "action": "Seek urgent medical assessment."
+        },
+        {
+          "symptom": "Severe, persistent abdominal pain",
+          "urgency": "urgent",
+          "action": "Seek urgent medical assessment."
+        },
+        {
+          "symptom": "New or severe chest pain",
+          "urgency": "urgent",
+          "action": "Seek urgent medical assessment."
+        }
+      ],
+      "safeUseReminders": [
+        "Follow prescribed instructions.",
+        "Rise carefully if dizzy.",
+        "Do not stop treatment independently."
+      ],
+      "questionsToAskYourHealthcareProfessional": [
+        "What blood-pressure range is appropriate for me?",
+        "Could ankle swelling be related to this medicine?",
+        "Do my other medicines interact with it?",
+        "When should my blood pressure be checked?"
+      ],
+      "monitoring": [
+        "Blood pressure",
+        "Ankle swelling",
+        "Dizziness",
+        "Treatment response"
+      ],
+      "interactionCautions": [
+        {
+          "interactingSubstance": "Certain antibiotics, antifungals, heart medicines and other blood-pressure medicines",
+          "concern": "May interact.",
+          "recommendedAction": "Ask a healthcare professional or pharmacist to review the full medicine list."
+        }
+      ],
+      "formulations": [],
+      "sourceReferences": [],
+      "searchKeywords": [
+        "amlodipine",
+        "high blood pressure",
+        "hypertension",
+        "angina",
+        "blood pressure"
+      ],
+      "contentReview": {
+        "clinicalReviewRequired": true,
+        "reviewStatus": "pending",
+        "reviewNotes": [
+          "Source names NHS and Government of India NLEM but provides no exact URLs.",
+          "The source names reference organisations/titles but does not provide exact source URLs; sourceReferences is empty rather than using guessed URLs.",
+          "Clinical pharmacist/clinician review is required before publication."
+        ]
+      }
+    },
+    {
+      "id": "telmisartan",
+      "name": "Telmisartan",
+      "genericName": "telmisartan",
+      "displayName": "Telmisartan",
+      "medicineGroup": "Angiotensin II receptor blocker (ARB)",
+      "categoryIds": [
+        "blood-pressure-cardiovascular"
+      ],
+      "summary": "Used to manage high blood pressure; other cardiovascular indications depend on clinical circumstances and applicable product approval.",
+      "whatIsItUsedFor": [
+        "High blood pressure.",
+        "Other cardiovascular indications only as applicable to clinical circumstances and product approval."
+      ],
+      "howDoesItWork": "Blocks angiotensin II, a substance that narrows blood vessels, helping vessels relax and lowering blood pressure.",
+      "whatShouldIKnowBeforeTakingIt": [
+        "Should not be used during pregnancy.",
+        "Kidney function and potassium may need monitoring.",
+        "Dehydration and some existing kidney conditions require particular attention."
+      ],
+      "possibleSideEffects": [
+        {
+          "description": "Dizziness",
+          "severity": "unspecified",
+          "action": "Discuss persistent or concerning symptoms with a healthcare professional."
+        },
+        {
+          "description": "Low blood pressure",
+          "severity": "unspecified",
+          "action": "Discuss persistent or concerning symptoms with a healthcare professional."
+        },
+        {
+          "description": "Occasional gastrointestinal symptoms",
+          "severity": "unspecified",
+          "action": "Discuss persistent or concerning symptoms with a healthcare professional."
+        }
+      ],
+      "whenToSeekMedicalHelp": [
+        {
+          "symptom": "Swelling of face, lips or tongue",
+          "urgency": "urgent",
+          "action": "Seek urgent medical assessment."
+        },
+        {
+          "symptom": "Fainting",
+          "urgency": "urgent",
+          "action": "Seek urgent medical assessment."
+        },
+        {
+          "symptom": "Severe weakness",
+          "urgency": "urgent",
+          "action": "Seek urgent medical assessment."
+        },
+        {
+          "symptom": "Marked reduction in urine output",
+          "urgency": "urgent",
+          "action": "Seek urgent medical assessment."
+        }
+      ],
+      "safeUseReminders": [
+        "Follow prescribed instructions.",
+        "Do not use potassium supplements or potassium-containing salt substitutes without checking with a healthcare professional.",
+        "Do not change or stop treatment independently."
+      ],
+      "questionsToAskYourHealthcareProfessional": [
+        "When should kidney function and potassium be checked?",
+        "Could painkillers affect my kidneys or blood pressure?",
+        "What should I do if dehydrated?",
+        "What symptoms require urgent medical assessment?"
+      ],
+      "monitoring": [
+        "Blood pressure",
+        "Kidney function",
+        "Blood potassium"
+      ],
+      "interactionCautions": [
+        {
+          "interactingSubstance": "Potassium supplements, potassium-sparing diuretics, NSAID painkillers and other blood-pressure medicines",
+          "concern": "Require review due to potential effects on potassium, kidney function or blood pressure.",
+          "recommendedAction": "Ask a healthcare professional or pharmacist before combining."
+        }
+      ],
+      "formulations": [],
+      "sourceReferences": [],
+      "searchKeywords": [
+        "telmisartan",
+        "hypertension",
+        "high blood pressure",
+        "arb",
+        "potassium",
+        "kidney function"
+      ],
+      "contentReview": {
+        "clinicalReviewRequired": true,
+        "reviewStatus": "pending",
+        "reviewNotes": [
+          "Verify telmisartan-specific warnings and indications against current Indian-approved product information. Source gives no exact URL.",
+          "The source names reference organisations/titles but does not provide exact source URLs; sourceReferences is empty rather than using guessed URLs.",
+          "Clinical pharmacist/clinician review is required before publication."
+        ]
+      }
+    },
+    {
+      "id": "losartan",
+      "name": "Losartan",
+      "genericName": "losartan",
+      "displayName": "Losartan",
+      "medicineGroup": "Angiotensin II receptor blocker (ARB)",
+      "categoryIds": [
+        "blood-pressure-cardiovascular"
+      ],
+      "summary": "Used to manage high blood pressure and may be prescribed for selected kidney-related or cardiovascular indications.",
+      "whatIsItUsedFor": [
+        "High blood pressure.",
+        "Selected kidney-related or cardiovascular indications."
+      ],
+      "howDoesItWork": "Blocks angiotensin II, helping blood vessels relax and lowering blood pressure.",
+      "whatShouldIKnowBeforeTakingIt": [
+        "Should not be used during pregnancy.",
+        "Kidney function and potassium may need monitoring.",
+        "Tell a healthcare professional about kidney disease, dehydration and all other medicines."
+      ],
+      "possibleSideEffects": [
+        {
+          "description": "Dizziness",
+          "severity": "unspecified",
+          "action": "Discuss persistent or concerning symptoms with a healthcare professional."
+        },
+        {
+          "description": "Low blood pressure",
+          "severity": "unspecified",
+          "action": "Discuss persistent or concerning symptoms with a healthcare professional."
+        },
+        {
+          "description": "Tiredness",
+          "severity": "unspecified",
+          "action": "Discuss persistent or concerning symptoms with a healthcare professional."
+        }
+      ],
+      "whenToSeekMedicalHelp": [
+        {
+          "symptom": "Swelling of face, lips or tongue",
+          "urgency": "urgent",
+          "action": "Seek urgent medical assessment."
+        },
+        {
+          "symptom": "Fainting",
+          "urgency": "urgent",
+          "action": "Seek urgent medical assessment."
+        },
+        {
+          "symptom": "Severe weakness",
+          "urgency": "urgent",
+          "action": "Seek urgent medical assessment."
+        },
+        {
+          "symptom": "Markedly reduced urine output",
+          "urgency": "urgent",
+          "action": "Seek urgent medical assessment."
+        }
+      ],
+      "safeUseReminders": [
+        "Follow the prescribed plan.",
+        "Do not independently change or stop treatment.",
+        "Ask before using potassium-containing supplements or salt substitutes."
+      ],
+      "questionsToAskYourHealthcareProfessional": [
+        "How often should kidney function and potassium be checked?",
+        "Could my pain medicines affect my kidneys?",
+        "What symptoms require urgent medical attention?",
+        "How should I monitor my blood pressure?"
+      ],
+      "monitoring": [
+        "Blood pressure",
+        "Kidney function",
+        "Potassium"
+      ],
+      "interactionCautions": [
+        {
+          "interactingSubstance": "Potassium products, certain diuretics, NSAIDs and other blood-pressure medicines",
+          "concern": "May require review.",
+          "recommendedAction": "Ask a healthcare professional or pharmacist to review the combination."
+        }
+      ],
+      "formulations": [],
+      "sourceReferences": [],
+      "searchKeywords": [
+        "losartan",
+        "hypertension",
+        "high blood pressure",
+        "arb",
+        "kidney health",
+        "potassium"
+      ],
+      "contentReview": {
+        "clinicalReviewRequired": true,
+        "reviewStatus": "pending",
+        "reviewNotes": [
+          "Drug-specific information must be verified against current Indian-approved product information. Source gives no exact URL.",
+          "The source names reference organisations/titles but does not provide exact source URLs; sourceReferences is empty rather than using guessed URLs.",
+          "Clinical pharmacist/clinician review is required before publication."
+        ]
+      }
+    },
+    {
+      "id": "atorvastatin",
+      "name": "Atorvastatin",
+      "genericName": "atorvastatin",
+      "displayName": "Atorvastatin",
+      "medicineGroup": "Statin; lipid-lowering medicine",
+      "categoryIds": [
+        "cardiovascular-prevention"
+      ],
+      "summary": "Lowers cholesterol and may be prescribed to reduce heart attack and stroke risk in appropriate patients.",
+      "whatIsItUsedFor": [
+        "Lowering cholesterol.",
+        "Reducing heart attack and stroke risk in appropriate patients."
+      ],
+      "howDoesItWork": "Reduces cholesterol production in the liver, helping lower LDL cholesterol.",
+      "whatShouldIKnowBeforeTakingIt": [
+        "Tell a healthcare professional about liver disease, unexplained muscle pain or weakness, pregnancy or plans for pregnancy.",
+        "Several medicines can affect atorvastatin levels and side-effect risk.",
+        "Do not assume severe or unexplained muscle pain is harmless."
+      ],
+      "possibleSideEffects": [
+        {
+          "description": "Muscle aches",
+          "severity": "unspecified",
+          "action": "Discuss persistent or concerning symptoms with a healthcare professional."
+        },
+        {
+          "description": "Headache",
+          "severity": "unspecified",
+          "action": "Discuss persistent or concerning symptoms with a healthcare professional."
+        },
+        {
+          "description": "Nausea",
+          "severity": "unspecified",
+          "action": "Discuss persistent or concerning symptoms with a healthcare professional."
+        },
+        {
+          "description": "Indigestion",
+          "severity": "unspecified",
+          "action": "Discuss persistent or concerning symptoms with a healthcare professional."
+        },
+        {
+          "description": "Diarrhoea",
+          "severity": "unspecified",
+          "action": "Discuss persistent or concerning symptoms with a healthcare professional."
+        },
+        {
+          "description": "Constipation",
+          "severity": "unspecified",
+          "action": "Discuss persistent or concerning symptoms with a healthcare professional."
+        }
+      ],
+      "whenToSeekMedicalHelp": [
+        {
+          "symptom": "Severe unexplained muscle pain or weakness, especially with dark urine",
+          "urgency": "urgent",
+          "action": "Seek urgent medical assessment."
+        },
+        {
+          "symptom": "Yellowing of skin or eyes",
+          "urgency": "urgent",
+          "action": "Seek urgent medical assessment."
+        },
+        {
+          "symptom": "Severe allergic reaction",
+          "urgency": "urgent",
+          "action": "Seek urgent medical assessment."
+        }
+      ],
+      "safeUseReminders": [
+        "Take according to the prescribed plan.",
+        "Report severe or unexplained muscle symptoms promptly.",
+        "Do not stop treatment independently."
+      ],
+      "questionsToAskYourHealthcareProfessional": [
+        "What cholesterol level are we aiming for?",
+        "Could my other medicines interact with atorvastatin?",
+        "Which muscle symptoms require urgent attention?",
+        "When should cholesterol be checked again?"
+      ],
+      "monitoring": [
+        "Lipid profile",
+        "Muscle symptoms",
+        "Liver tests when clinically indicated"
+      ],
+      "interactionCautions": [
+        {
+          "interactingSubstance": "Some antibiotics, antifungals, antivirals and other lipid-lowering medicines",
+          "concern": "Can increase interaction risks.",
+          "recommendedAction": "Ask a pharmacist or healthcare professional to review the combination."
+        },
+        {
+          "interactingSubstance": "Grapefruit",
+          "concern": "May be relevant depending on product and regimen.",
+          "recommendedAction": "Ask whether grapefruit matters for the exact product and regimen."
+        }
+      ],
+      "formulations": [],
+      "sourceReferences": [],
+      "searchKeywords": [
+        "atorvastatin",
+        "cholesterol",
+        "ldl",
+        "statin",
+        "cardiovascular risk"
+      ],
+      "contentReview": {
+        "clinicalReviewRequired": true,
+        "reviewStatus": "pending",
+        "reviewNotes": [
+          "Source names NHS and Government of India NLEM but provides no exact URLs.",
+          "The source names reference organisations/titles but does not provide exact source URLs; sourceReferences is empty rather than using guessed URLs.",
+          "Clinical pharmacist/clinician review is required before publication."
+        ]
+      }
+    },
+    {
+      "id": "low-dose-aspirin",
+      "name": "Low-dose aspirin",
+      "genericName": "aspirin",
+      "displayName": "Low-dose aspirin",
+      "medicineGroup": "Antiplatelet medicine",
+      "categoryIds": [
+        "cardiovascular-prevention"
+      ],
+      "summary": "Used in selected patients to reduce risk of certain clot-related cardiovascular events; it is not appropriate for everyone and should not automatically be used for primary prevention.",
+      "whatIsItUsedFor": [
+        "Reducing risk of certain clot-related cardiovascular events in selected patients."
+      ],
+      "howDoesItWork": "Reduces the ability of platelets to clump together and form blood clots.",
+      "whatShouldIKnowBeforeTakingIt": [
+        "Tell a healthcare professional about stomach ulcers, previous bleeding, kidney disease and asthma triggered by painkillers.",
+        "Other medicines may increase bleeding risk.",
+        "Inform healthcare professionals before surgery or dental procedures."
+      ],
+      "possibleSideEffects": [
+        {
+          "description": "Stomach irritation",
+          "severity": "unspecified",
+          "action": "Discuss persistent or concerning symptoms with a healthcare professional."
+        },
+        {
+          "description": "Easy bruising",
+          "severity": "unspecified",
+          "action": "Discuss persistent or concerning symptoms with a healthcare professional."
+        },
+        {
+          "description": "Minor bleeding",
+          "severity": "unspecified",
+          "action": "Discuss persistent or concerning symptoms with a healthcare professional."
+        }
+      ],
+      "whenToSeekMedicalHelp": [
+        {
+          "symptom": "Vomiting blood",
+          "urgency": "urgent",
+          "action": "Seek urgent medical assessment."
+        },
+        {
+          "symptom": "Black tarry stools",
+          "urgency": "urgent",
+          "action": "Seek urgent medical assessment."
+        },
+        {
+          "symptom": "Uncontrolled bleeding",
+          "urgency": "urgent",
+          "action": "Seek urgent medical assessment."
+        },
+        {
+          "symptom": "Sudden severe headache with concerning symptoms",
+          "urgency": "urgent",
+          "action": "Seek urgent medical assessment."
+        }
+      ],
+      "safeUseReminders": [
+        "Do not start aspirin for cardiovascular prevention without professional advice.",
+        "Do not add other painkillers without checking for interactions.",
+        "Do not stop prescribed antiplatelet treatment independently."
+      ],
+      "questionsToAskYourHealthcareProfessional": [
+        "Why has aspirin been prescribed for me?",
+        "What bleeding signs require urgent care?",
+        "Which painkillers should I check before using?",
+        "Should I take precautions before a procedure?"
+      ],
+      "monitoring": [
+        "Bleeding symptoms",
+        "Continuing indication",
+        "Blood count when clinically indicated"
+      ],
+      "interactionCautions": [
+        {
+          "interactingSubstance": "Anticoagulants, other antiplatelets, NSAIDs and certain other medicines",
+          "concern": "Can increase bleeding risk.",
+          "recommendedAction": "Have combinations reviewed by a healthcare professional or pharmacist."
+        }
+      ],
+      "formulations": [],
+      "sourceReferences": [],
+      "searchKeywords": [
+        "low-dose aspirin",
+        "aspirin",
+        "antiplatelet",
+        "blood clots",
+        "cardiovascular prevention"
+      ],
+      "contentReview": {
+        "clinicalReviewRequired": true,
+        "reviewStatus": "pending",
+        "reviewNotes": [
+          "Product-specific warnings should be verified before publication. Source gives no exact URL.",
+          "The source names reference organisations/titles but does not provide exact source URLs; sourceReferences is empty rather than using guessed URLs.",
+          "Clinical pharmacist/clinician review is required before publication."
+        ]
+      }
+    },
+    {
+      "id": "clopidogrel",
+      "name": "Clopidogrel",
+      "genericName": "clopidogrel",
+      "displayName": "Clopidogrel",
+      "medicineGroup": "Antiplatelet medicine",
+      "categoryIds": [
+        "cardiovascular-prevention"
+      ],
+      "summary": "Helps prevent blood clots in selected patients with cardiovascular disease or after certain vascular procedures.",
+      "whatIsItUsedFor": [
+        "Prevention of blood clots in selected patients with cardiovascular disease or after certain vascular procedures."
+      ],
+      "howDoesItWork": "Reduces the ability of platelets to stick together and form clots.",
+      "whatShouldIKnowBeforeTakingIt": [
+        "Tell a healthcare professional about active bleeding, stomach ulcers and planned procedures.",
+        "Reason and intended duration of treatment depend on the condition.",
+        "Stopping without medical advice can be dangerous, particularly after certain heart procedures."
+      ],
+      "possibleSideEffects": [
+        {
+          "description": "Easy bruising",
+          "severity": "unspecified",
+          "action": "Discuss persistent or concerning symptoms with a healthcare professional."
+        },
+        {
+          "description": "Nosebleeds",
+          "severity": "unspecified",
+          "action": "Discuss persistent or concerning symptoms with a healthcare professional."
+        },
+        {
+          "description": "Prolonged bleeding from small cuts",
+          "severity": "unspecified",
+          "action": "Discuss persistent or concerning symptoms with a healthcare professional."
+        },
+        {
+          "description": "Stomach discomfort",
+          "severity": "unspecified",
+          "action": "Discuss persistent or concerning symptoms with a healthcare professional."
+        }
+      ],
+      "whenToSeekMedicalHelp": [
+        {
+          "symptom": "Blood in vomit or urine",
+          "urgency": "urgent",
+          "action": "Seek urgent medical assessment."
+        },
+        {
+          "symptom": "Black stools",
+          "urgency": "urgent",
+          "action": "Seek urgent medical assessment."
+        },
+        {
+          "symptom": "Uncontrolled bleeding",
+          "urgency": "urgent",
+          "action": "Seek urgent medical assessment."
+        },
+        {
+          "symptom": "Sudden weakness, speech difficulty or severe headache",
+          "urgency": "urgent",
+          "action": "Seek urgent medical assessment."
+        }
+      ],
+      "safeUseReminders": [
+        "Do not stop treatment independently, especially after a coronary stent.",
+        "Tell all healthcare professionals that you take clopidogrel.",
+        "Check before taking additional painkillers."
+      ],
+      "questionsToAskYourHealthcareProfessional": [
+        "Why am I taking clopidogrel, and for how long?",
+        "Which bleeding symptoms require urgent care?",
+        "Which painkillers or stomach medicines should be checked?",
+        "What precautions should I follow before surgery or dental treatment?"
+      ],
+      "monitoring": [
+        "Bleeding symptoms",
+        "Treatment adherence",
+        "Blood count when clinically indicated"
+      ],
+      "interactionCautions": [
+        {
+          "interactingSubstance": "Anticoagulants, aspirin and NSAIDs",
+          "concern": "Can affect bleeding risk.",
+          "recommendedAction": "Ask a healthcare professional or pharmacist to review the combination."
+        },
+        {
+          "interactingSubstance": "Certain stomach-acid medicines",
+          "concern": "May affect bleeding risk or clopidogrel's effect.",
+          "recommendedAction": "Request a pharmacist-led interaction review."
+        }
+      ],
+      "formulations": [],
+      "sourceReferences": [],
+      "searchKeywords": [
+        "clopidogrel",
+        "antiplatelet",
+        "blood clots",
+        "coronary stent",
+        "stroke prevention"
+      ],
+      "contentReview": {
+        "clinicalReviewRequired": true,
+        "reviewStatus": "pending",
+        "reviewNotes": [
+          "Verify product-specific interactions and warnings against current Indian-approved information. Source gives no exact URL.",
+          "The source names reference organisations/titles but does not provide exact source URLs; sourceReferences is empty rather than using guessed URLs.",
+          "Clinical pharmacist/clinician review is required before publication."
+        ]
+      }
+    },
+    {
+      "id": "pantoprazole",
+      "name": "Pantoprazole",
+      "genericName": "pantoprazole",
+      "displayName": "Pantoprazole",
+      "medicineGroup": "Proton-pump inhibitor (PPI)",
+      "categoryIds": [
+        "gastrointestinal-health"
+      ],
+      "summary": "Reduces stomach acid and is used for acid reflux and certain other acid-related conditions; it may be used in selected ulcer treatment or prevention plans.",
+      "whatIsItUsedFor": [
+        "Acid reflux and other acid-related conditions.",
+        "Selected ulcer-treatment or prevention plans."
+      ],
+      "howDoesItWork": "Reduces the amount of acid produced by the stomach.",
+      "whatShouldIKnowBeforeTakingIt": [
+        "Tell a healthcare professional about persistent symptoms, difficulty swallowing, unexplained weight loss or gastrointestinal bleeding.",
+        "Long-term treatment should be reviewed periodically.",
+        "Other medicines may affect which acid-suppressing treatment is suitable."
+      ],
+      "possibleSideEffects": [
+        {
+          "description": "Headache",
+          "severity": "unspecified",
+          "action": "Discuss persistent or concerning symptoms with a healthcare professional."
+        },
+        {
+          "description": "Nausea",
+          "severity": "unspecified",
+          "action": "Discuss persistent or concerning symptoms with a healthcare professional."
+        },
+        {
+          "description": "Abdominal discomfort",
+          "severity": "unspecified",
+          "action": "Discuss persistent or concerning symptoms with a healthcare professional."
+        },
+        {
+          "description": "Diarrhoea",
+          "severity": "unspecified",
+          "action": "Discuss persistent or concerning symptoms with a healthcare professional."
+        },
+        {
+          "description": "Constipation",
+          "severity": "unspecified",
+          "action": "Discuss persistent or concerning symptoms with a healthcare professional."
+        }
+      ],
+      "whenToSeekMedicalHelp": [
+        {
+          "symptom": "Vomiting blood",
+          "urgency": "urgent",
+          "action": "Seek urgent medical assessment."
+        },
+        {
+          "symptom": "Black stools",
+          "urgency": "urgent",
+          "action": "Seek urgent medical assessment."
+        },
+        {
+          "symptom": "Severe persistent diarrhoea",
+          "urgency": "urgent",
+          "action": "Seek urgent medical assessment."
+        },
+        {
+          "symptom": "Severe allergic reaction",
+          "urgency": "urgent",
+          "action": "Seek urgent medical assessment."
+        },
+        {
+          "symptom": "Persistent or worsening symptoms",
+          "urgency": "prompt",
+          "action": "Contact a healthcare professional promptly."
+        }
+      ],
+      "safeUseReminders": [
+        "Follow instructions for the particular product.",
+        "Ask whether long-term treatment is still necessary.",
+        "Do not self-treat warning symptoms without medical assessment."
+      ],
+      "questionsToAskYourHealthcareProfessional": [
+        "What condition is this medicine treating?",
+        "How long should I continue it?",
+        "Could it interact with my other medicines?",
+        "Do I need review if symptoms persist?"
+      ],
+      "monitoring": [
+        "Symptom response",
+        "Continuing need for treatment",
+        "Selected laboratory tests when long-term use or clinical risk warrants them"
+      ],
+      "interactionCautions": [
+        {
+          "interactingSubstance": "Clopidogrel and certain other medicines",
+          "concern": "May warrant a pharmacist-led interaction review.",
+          "recommendedAction": "Ask a pharmacist or healthcare professional to check the combination."
+        }
+      ],
+      "formulations": [],
+      "sourceReferences": [],
+      "searchKeywords": [
+        "pantoprazole",
+        "acid reflux",
+        "stomach acid",
+        "ppi",
+        "ulcer"
+      ],
+      "contentReview": {
+        "clinicalReviewRequired": true,
+        "reviewStatus": "pending",
+        "reviewNotes": [
+          "Verify pantoprazole-specific interactions and approved indications against current product information. Source gives no exact URL.",
+          "The source names reference organisations/titles but does not provide exact source URLs; sourceReferences is empty rather than using guessed URLs.",
+          "Clinical pharmacist/clinician review is required before publication."
+        ]
+      }
+    },
+    {
+      "id": "paracetamol",
+      "name": "Paracetamol",
+      "genericName": "paracetamol",
+      "displayName": "Paracetamol",
+      "medicineGroup": "Analgesic and antipyretic",
+      "categoryIds": [
+        "pain-fever"
+      ],
+      "summary": "Used to relieve mild to moderate pain and reduce fever; it is not a specific treatment recommendation for neuropathic pain.",
+      "whatIsItUsedFor": [
+        "Relief of mild to moderate pain.",
+        "Reduction of fever."
+      ],
+      "howDoesItWork": "Reduces pain and fever, although its exact mechanism is not fully understood.",
+      "whatShouldIKnowBeforeTakingIt": [
+        "Check cold, flu and combination pain products for duplicate paracetamol ingredients.",
+        "Liver disease, heavy alcohol use and certain other risk factors require professional advice.",
+        "Taking too much can cause serious liver damage even if symptoms are not immediately apparent."
+      ],
+      "possibleSideEffects": [
+        {
+          "description": "Side effects are uncommon when used appropriately.",
+          "severity": "unspecified",
+          "action": "Discuss persistent or concerning symptoms with a healthcare professional."
+        },
+        {
+          "description": "Allergic reactions can occur.",
+          "severity": "unspecified",
+          "action": "Discuss persistent or concerning symptoms with a healthcare professional."
+        },
+        {
+          "description": "Liver injury can occur.",
+          "severity": "unspecified",
+          "action": "Discuss persistent or concerning symptoms with a healthcare professional."
+        }
+      ],
+      "whenToSeekMedicalHelp": [
+        {
+          "symptom": "Possible overdose, even if feeling well",
+          "urgency": "emergency",
+          "action": "Seek emergency medical care."
+        },
+        {
+          "symptom": "Severe allergic reaction",
+          "urgency": "urgent",
+          "action": "Seek urgent medical assessment."
+        },
+        {
+          "symptom": "Yellowing of skin or eyes suggesting liver injury",
+          "urgency": "urgent",
+          "action": "Seek urgent medical assessment."
+        }
+      ],
+      "safeUseReminders": [
+        "Follow the product label or healthcare professional's instructions.",
+        "Do not exceed the recommended amount.",
+        "Check ingredients of all other medicines you use."
+      ],
+      "questionsToAskYourHealthcareProfessional": [
+        "Does another medicine I take contain paracetamol?",
+        "Is it suitable given my liver health and other medicines?",
+        "How long should persistent pain or fever be assessed?",
+        "What should I do if I may have taken too much?"
+      ],
+      "monitoring": [
+        "Total intake from all products",
+        "Duration of use",
+        "Symptom response",
+        "Liver-related risk factors when relevant"
+      ],
+      "interactionCautions": [
+        {
+          "interactingSubstance": "Duplicate paracetamol-containing products",
+          "concern": "Can cause accidental overdose.",
+          "recommendedAction": "Check active ingredients across all products."
+        },
+        {
+          "interactingSubstance": "Some anticoagulants with regular use",
+          "concern": "Possible interaction.",
+          "recommendedAction": "Ask a healthcare professional or pharmacist to review regular use."
+        }
+      ],
+      "formulations": [],
+      "sourceReferences": [],
+      "searchKeywords": [
+        "paracetamol",
+        "acetaminophen",
+        "pain relief",
+        "fever",
+        "analgesic",
+        "antipyretic"
+      ],
+      "contentReview": {
+        "clinicalReviewRequired": true,
+        "reviewStatus": "pending",
+        "reviewNotes": [
+          "Source names NHS but provides no exact URL.",
+          "The source names reference organisations/titles but does not provide exact source URLs; sourceReferences is empty rather than using guessed URLs.",
+          "Clinical pharmacist/clinician review is required before publication."
+        ]
+      }
+    },
+    {
+      "id": "levothyroxine",
+      "name": "Levothyroxine",
+      "genericName": "levothyroxine",
+      "displayName": "Levothyroxine",
+      "medicineGroup": "Thyroid hormone replacement",
+      "categoryIds": [
+        "thyroid-health"
+      ],
+      "summary": "Replaces thyroid hormone in people with hypothyroidism, when the thyroid gland does not produce enough hormone.",
+      "whatIsItUsedFor": [
+        "Treatment of hypothyroidism."
+      ],
+      "howDoesItWork": "Replaces thyroxine (T4), which the body needs to regulate normal metabolism.",
+      "whatShouldIKnowBeforeTakingIt": [
+        "The treatment plan depends on blood-test results and clinical circumstances.",
+        "Tell a healthcare professional about heart disease and pregnancy.",
+        "Iron, calcium and certain antacids can interfere with absorption when taken too close together."
+      ],
+      "possibleSideEffects": [
+        {
+          "description": "If more is absorbed than needed, symptoms can include palpitations, tremor, sweating, anxiety and difficulty sleeping.",
+          "severity": "unspecified",
+          "action": "Discuss persistent or concerning symptoms with a healthcare professional."
+        }
+      ],
+      "whenToSeekMedicalHelp": [
+        {
+          "symptom": "Chest pain",
+          "urgency": "urgent",
+          "action": "Seek urgent medical assessment."
+        },
+        {
+          "symptom": "Fast or irregular heartbeat with severe symptoms",
+          "urgency": "urgent",
+          "action": "Seek urgent medical assessment."
+        },
+        {
+          "symptom": "Severe allergic reaction",
+          "urgency": "urgent",
+          "action": "Seek urgent medical assessment."
+        }
+      ],
+      "safeUseReminders": [
+        "Follow product-specific instructions consistently.",
+        "Do not change or stop treatment independently.",
+        "Keep scheduled thyroid blood-test appointments."
+      ],
+      "questionsToAskYourHealthcareProfessional": [
+        "When should thyroid blood tests be repeated?",
+        "How should I space this medicine from iron or calcium supplements?",
+        "What symptoms might indicate treatment needs review?",
+        "Does pregnancy or a change in health require reassessment?"
+      ],
+      "monitoring": [
+        "Thyroid function tests",
+        "Symptoms",
+        "Adherence",
+        "Treatment review during pregnancy or significant health changes"
+      ],
+      "interactionCautions": [
+        {
+          "interactingSubstance": "Iron, calcium and some antacids",
+          "concern": "Can affect absorption when taken too close together.",
+          "recommendedAction": "Ask a healthcare professional or pharmacist how to space medicines."
+        },
+        {
+          "interactingSubstance": "Other medicines",
+          "concern": "May affect absorption or thyroid test results.",
+          "recommendedAction": "Have the full medicine list reviewed."
+        }
+      ],
+      "formulations": [],
+      "sourceReferences": [],
+      "searchKeywords": [
+        "levothyroxine",
+        "thyroxine",
+        "t4",
+        "hypothyroidism",
+        "thyroid hormone"
+      ],
+      "contentReview": {
+        "clinicalReviewRequired": true,
+        "reviewStatus": "pending",
+        "reviewNotes": [
+          "Verify the exact formulation's approved information before publication. Source gives no exact URL.",
+          "The source names reference organisations/titles but does not provide exact source URLs; sourceReferences is empty rather than using guessed URLs.",
+          "Clinical pharmacist/clinician review is required before publication."
+        ]
+      }
+    }
+  ]
+}
