@@ -1,6 +1,6 @@
 import { branding } from "@/config/branding";
 import { cn } from "@/lib/utils";
-import logoAsset from "@/assets/neurocare-logo.png.asset.json";
+import logoAsset from "@/assets/neurocare-logo.png";
 
 /** The application mark — reads its label from the central branding config. */
 export function BrandMark({
